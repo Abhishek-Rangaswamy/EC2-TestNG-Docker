@@ -1,0 +1,12 @@
+What is TestNG Listeners?
+Listeners are TestNG annotations, that literally listens to all events in the script and modify the TestNG behaviour accordingly.
+These listeneres are applied as interfaces in the code.
+They enable customization of test behavior, such as logging, reporting, or taking actions before, after, or when a test fails, passes, or is skipped.
+
+Benefits of using TestNG Listeners with Selenium
+Enhanced Test Reporting: By implementing listeners, you can capture and log events occurring during test execution, such as test case start, test case failure, test case success, etc.
+
+Test Result Analysis:Define custom actions to be taken when a test fails, such as capturing a screenshot, logging additional information, or sending a notification. 
+This enables you to take immediate corrective actions and facilitates efficient debugging.
+
+Test Execution Control: Listeners allow you to define conditions and logic for executing or skipping tests based on specific criteria.

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+  <parameter name="browser" value="chrome"/>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.RunConfig.setUpReports"/>
+      <class name="com.RunConfig.browserManager"/>
+      <class name="com.test.bookingApp.TestCases"/>
+    </classes>
+  </test>
+</suite>

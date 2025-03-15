@@ -1,0 +1,3 @@
+com\test\bookingApp\TestCases.class
+com\RunConfig\browserManager.class
+com\RunConfig\setUpReports.class

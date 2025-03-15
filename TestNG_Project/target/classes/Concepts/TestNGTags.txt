@@ -1,0 +1,35 @@
+TestNG tags order of execution
+
+@BeforeSuite
+1. Runs once before any test in the suite starts.
+2. Typically used for global setup like initializing configurations, database connections, or setting up reports
+
+@BeforeTest
+1. Runs before any <test> tag in the testng.xml file.
+2. Used for browser setup or initializing test environments.
+
+@BeforeClass
+1. Runs before the first test method of the current class.
+2. Used for class-level setup like creating test data.
+
+@BeforeMethod
+1. Runs before every test method in the class
+2. Typically used for test set-up, such as launching the browser
+
+@Test
+The actual test case.
+Runs after @BeforeMethod and before @AfterMethod.
+
+@AfterMethod
+1. Runs after each test method in the class
+2. Typically used for post-test cleanup, such as logging off the application or closing the browser
+
+@AfterClass
+1. Runs after all test methods in the class have executed.
+
+@AfterTest
+1. Runs after all test methods under a <test> tag in testng.xml.
+
+@AfterSuite
+1. Runs once after all tests in the suite have completed.
+2. Used for cleanup tasks like closing connections, flushing reports, etc.
